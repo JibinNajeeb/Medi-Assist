@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/quest/AndroidStudioProjects/MedAssist5/libs/AlexaAndroid/build/intermediates/bundles/default/libs/login-with-amazon-sdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="df80b8fcb7700348eb1e636c4ce6e0b0667ca008">
+        <dex dex="/home/quest/AndroidStudioProjects/MedAssist5/app/build/intermediates/transforms/dex/debug/folders/1000/8/login-with-amazon-sdk_215dd9f5e8b0533b6eedf7fd6017ca02a0d86349/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/quest/AndroidStudioProjects/MedAssist5/libs/AlexaAndroid/build/intermediates/bundles/default/libs/commons-fileupload-1.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="27cfaf166296e196b02c676f36fe2b9bf6d77725">
+        <dex dex="/home/quest/AndroidStudioProjects/MedAssist5/app/build/intermediates/transforms/dex/debug/folders/1000/8/commons-fileupload-1.3.1_d8e21a84218a106ab0f2cc98d240c0867182c406/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/quest/AndroidStudioProjects/MedAssist5/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6f52ccae8aa311e4712e40fc89abdf4f37564762">
+        <dex dex="/home/quest/AndroidStudioProjects/MedAssist5/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2ff5211988965d68fcb2cf419e98acc8af0b4014/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/quest/AndroidStudioProjects/MedAssist5/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c323c36ecc68965c4cfb460f7721113d2b61ed03">
+        <dex dex="/home/quest/AndroidStudioProjects/MedAssist5/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e370dfebeaea39b598dcf0bf61f9fcb9f34cd86b/classes.dex" />
+    </item>
+
+</items>

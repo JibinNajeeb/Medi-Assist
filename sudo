@@ -1,1 +1,0 @@
-vfio-pci /etc/modules-load.d/vfio-pci.conf

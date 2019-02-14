@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/medicineLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medicine: " />
+
+        <EditText
+            android:id="@+id/dosageLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dosage: " />
+
+        <EditText
+            android:id="@+id/frequencyLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Frequency: " />
+
+        <EditText
+            android:id="@+id/durationLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Duration: " />
+        <EditText
+            android:id="@+id/imageLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Image: " />
+
+        <ImageView
+            android:id="@+id/photoImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/medicineText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Medicine" />
+        <EditText
+            android:id="@+id/dosageText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Dosage" />
+        <EditText
+            android:id="@+id/frequencyText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Frequency" />
+        <EditText
+            android:id="@+id/durationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Duration" />
+
+        <Button
+            android:id="@+id/imgCatchButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onImageCaptureClicked"
+            android:text="Capture" />
+    </LinearLayout>
+</LinearLayout>
